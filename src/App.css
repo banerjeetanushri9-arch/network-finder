@@ -1,108 +1,28 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff8ee;
-}
 
 .app {
-  min-height: 100vh;
-  background: #fff8ee;
-  padding: 40px 20px;
-}
-
-.container {
-  max-width: 700px;
-  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-  text-align: center;
-  color: #1e3a5f;
-  font-size: 36px;
-  margin-bottom: 8px;
-}
-
-.subtitle {
-  text-align: center;
-  color: #666;
-  margin-bottom: 35px;
-}
-
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 18px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
-
-.card h2 {
-  color: #1e3a5f;
-  margin-top: 0;
-}
-
-.card h3 {
-  color: #1e3a5f;
   margin-bottom: 20px;
 }
 
-.card p {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 8px 0;
-  margin: 0;
-}
-
-.placeholder {
-  color: #888;
-}
-
-button {
-  width: 100%;
-  border: none;
+.info {
+  background: #f5f5f5;
   padding: 15px;
-  border-radius: 12px;
-  background: #1e3a5f;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-button:hover {
-  opacity: 0.9;
+.info p {
+  margin: 8px 0;
 }
 
 .error {
-  color: #d32f2f;
-}
-
-.nearest {
-  border-left: 5px solid #8ba888;
-}
-
-.tower {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  padding: 15px 0;
-  border-bottom: 1px solid #eee;
-}
-
-.tower:last-child {
-  border-bottom: none;
-}
-
-.tower > div:last-child {
-  text-align: right;
-}
-
-.leaflet-container {
-  z-index: 1;
-  border-radius: 14px;
+  background: #ffdede;
+  color: #a00000;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
 }
